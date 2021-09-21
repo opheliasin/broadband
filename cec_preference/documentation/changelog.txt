@@ -1,0 +1,48 @@
+7 NREL Changelog 
+Version date: 2021-05-13 
+ 
+Table name changes: 
+ 
+    commercial_main.csv renamed to survey_com_main. 
+    residential_households.csv renamed to survey_res_household. 
+    residential_main.csv renamed to survey_res_main. 
+    commercial_currentvehs.csv renamed to survey_com_currentveh. 
+    survey_com_vehchoice.csv renamed to survey_com_vehchoice. 
+    survey_res_vehchoice.csv renamed to survey_res_vehchoice. 
+    residential_currentvehs.csv renamed to survey_res_currentveh. 
+
+Column name changes: 
+ 
+    parent_id renamed to sampno. 
+    d16_vehmake renamed to veh_make. 
+    d16_vehmakeoth renamed to veh_make_oth. 
+    r_vehmodel renamed to veh_model. 
+    d16_modelyear renamed to veh_year. 
+    vehmake renamed to veh_make. 
+    vehmodel renamed to veh_model. 
+    modelyear renamed to veh_year. 
+    replace_make renamed to replace_veh_make. 
+    additional_make renamed to additional_veh_make. 
+    alt1_models renamed to alt1_veh_model. 
+    alt2_models renamed to alt2_veh_model. 
+    alt3_models renamed to alt3_veh_model. 
+    alt4_models renamed to alt4_veh_model. 
+    zip renamed to zipcode. 
+
+Column redactions: 
+ 
+    alt2_models
+    alt4_models
+    veh_model
+    age
+    c06_biztype
+    d16_make
+    veh_make
+    alt1_models
+    veh_make_oth
+    alt3_models
+    r_vehmodel
+
+Column additions: 
+ 
+    age_nrel_agebin
